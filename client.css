@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./Image/cambg_1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+legend{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+legend:hover{
+    color: orangered;
+}
+.forme{
+    height: 35px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orangered;
+    
+}
+fieldset{
+    border-radius: 200%;
+    color: #fff;
+}
+.Va{
+    color: rgb(248, 247, 250);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: rgb(55, 0, 255);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Va:hover{
+    color: rgb(0, 255, 21);
+}
+.An{
+    color: rgb(248, 247, 250);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: rgb(55, 0, 255);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.An:hover{
+    color: orangered;
+}
+.label{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-shadow: 100px;
+    color: #020b5c;
+    text-decoration: dashed;
+}

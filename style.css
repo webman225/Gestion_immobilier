@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ****************************Hearder********************************** */
+body{
+    background: url(Image/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.navbar{
+    background-color: #fff;
+}
+/* .main{
+    width: 100%;
+    background: url(./Image/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.nav{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+
+}
+.logo{
+    color: rgb(13, 0, 255);
+    font-size: 10px;
+    font-family: cursive;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+
+}
+.logo:hover{
+    color: #ff7200;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    position: relative;
+
+} 
+ul{
+float: left;
+display: flex;
+padding-top: 30px;
+justify-content: center;
+align-items: center;
+margin-left: 4%;
+}
+ul li{
+    list-style: none;
+    margin-left: 18px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: #2c0da9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease ;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search-txt{
+border-radius: 10px;
+}
+.search-box{
+    float: right;
+    width: 240px;
+    background: #fff;
+    height: 40px;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 1px;
+    margin-right: 2px;
+    /*display: inline;*/
+}
+/* .search-box a i{ 
+    color: black;
+}*/
+.search-box .search-txt{
+    width: 190px;
+    padding: 0 6px ;
+    text-decoration: transparent;
+    color: #ff7200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* ****************************Footer********************************** */
+.footer{
+    position: absolute;
+    top: 95%;
+    left: 0;
+    padding-left: 580px;
+}
+.footer a i{
+color: #2200ff;
+font-size: 25px;
+cursor: pointer;
+margin-left: 20px;
+
+}
+.footer a i:hover{
+    color: #ff7200;
+}
+.logo h3{
+    font-weight: bolder;
+}
+p{
+    position: absolute;
+    top: 88%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+p:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* ****************************The end, Good bye********************************** */
+.search-box a i{
+    text-align: center;
+    font-size: 35px; 
+    color: #0004ff;
+    border-radius: 100%;
+    padding-left: 100px;
+    padding-top: -80px;
+    
+}
+h6{
+    color: #0004ff;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercases;
+}
+.search-box a i:hover{
+    color: #ff7200;
+}
+.search-box a i h6 .moninfobull{
+    transform: scale(0);
+    position: absolute;
+    background-color: #2e3048;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 0 0.5px rgba(0, 0, 0, 0.4) ;
+    border-bottom: 3px solid rgb(255, 255, 255,0.3);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transition: 1s;
+}
+.search-box a i h6 .moninfobull::before{
+    content: '';
+    position: absolute;
+    border-bottom: 8px solid #2e3048 ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-top: -16px;
+}
+.search-box a i:hover > h6 .moninfobull{
+    transform: scale(1);
+}
